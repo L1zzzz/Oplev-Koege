@@ -11,10 +11,22 @@
     --black: #000000;
 }
 
+h2 {
+    font-family: "Helvetica Neue";
+    font-size: 15px;
+}
+
+p {
+    font-size: 14px;
+    font-family: "Helvetica Neue";
+    padding-top: 5px;
+    line-height: 21px;
+}
+
 header {
     display: flex;
     padding-top: 20px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -34,6 +46,11 @@ header {
     font-weight: bold;
 }
 
+.nav-links a {
+    text-decoration: none;
+    color: var(--black);
+}
+
 .nav-list {
     list-style: none;
 }
@@ -43,4 +60,47 @@ header {
     border-radius: 20px;
     height: 40px;
     width: 80px;
+}
+
+
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: var(--grey);
+    margin-top: 50px;
+}
+
+.main-grid-element {
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.dining-img {
+    width: 100%;
+    z-index: 0;
+}
+
+.pin-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 40px;
+}
+
+.pin-button-icon {
+    height: 40px;
+}
+
+.div-place-description {
+    margin-top: -50px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    z-index: 1;
+    background-color: var(--white);
+    border-radius: 3px;
 }
