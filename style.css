@@ -73,6 +73,8 @@ header {
     margin-right: 90px;
     background-color: var(--grey);
     margin-top: 50px;
+    padding-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 .main-grid-element {
