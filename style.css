@@ -123,7 +123,7 @@ header {
 }
 
 h1 {
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 30px;
     margin-left: 50px;
     font-family: "Helvetica Neue";
@@ -134,4 +134,23 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: var(--grey);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.top-stuff h2 {
+    max-width: 20%;
+    text-align: center;
+}
+
+.green-icon {
+    height: 50px;
+}
+
+/*
+.display-none {
+    display: none;
 }
