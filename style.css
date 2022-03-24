@@ -149,20 +149,78 @@ h1 {
 }
 
 .green-icon {
-    height: 50px;
+    height: 45px;
+}
+
+.trip-main-flex{
+    margin-top: 40px;
+    margin-left: 15%;
+    margin-bottom: 90px;
+}
+
+.trip-main-flex-element {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.icon-adress {
+    grid-area: icon-adress;
+}
+
+.icon-money {
+    grid-area: icon-money;
+}
+
+.icon-duration {
+    grid-area: icon-duration;
+}
+
+.adress {
+    grid-area: adress;
+}
+
+.price {
+    grid-area: price;
+}
+
+.opening {
+    grid-area: opening;
 }
 
 .trip-info {
     background-color: var(--grey);
     border-radius: 5px;
+    display: grid;
+    grid-template-areas:
+    "icon-adress adress"
+    "icon-money price"
+    "icon-duration opening";
+    align-items: center;
+    column-gap: 15px;
+    row-gap: 20px;
+    padding: 30px;
 }
-/*
+
+.trip-place-img img{
+    width: 300px;
+}
+
+.trip-edit-div img{
+    height: 200px;
+}
+
+.smaller img{
+    height: 150px;
+}
+
 .display-none {
     display: none;
 }
-*/
 
 
+/* footer */
 
 
 .upperfooter img{
@@ -171,12 +229,14 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 }
+
 .lowerfooter {
     background-color: var(--dark-green);
     color: white;
  
     text-align: center;
 }
+
 .footer-toptext {
     display: flex;
     text-align: center;
@@ -185,10 +245,12 @@ h1 {
     
 
 }
+
 .footer-toptext p{ 
     margin-left: 20px;
     font-family: Arial, Helvetica, sans-serif; 
 }
+
 .footer-bottext {
     display: flex;
     justify-content: space-between;
@@ -198,16 +260,20 @@ h1 {
     padding-bottom: 2%;
     text-align: left;
 }
+
 .footer-bottext section{
     max-width: 25%;
 }
+
 .logos {
     display:flex;
     justify-content: space-between;
 }
+
 .logos img{
     height: 35px;
 }
+
 .footer {
     font-family: Arial, Helvetica, sans-serif;
     left: 0;
@@ -217,6 +283,7 @@ h1 {
     color: white;
     text-align: center;
 }
+
 .footer p {
     font-family: Arial, Helvetica, sans-serif;
 }
