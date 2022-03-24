@@ -1,7 +1,7 @@
 let braetspilSection = document.querySelector(".flex-braetspil")
 let braetspilValue = window.localStorage.getItem("braetspil")
-if (braetspilValue = "true") {
-    braetspilSection.classList.remove("display-none")
+if (braetspilValue == "true") {
+    braetspilSection.classList.toggle("display-none")
 }
 
 // take value of braetspil from the storage 
